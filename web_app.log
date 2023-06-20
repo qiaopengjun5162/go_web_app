@@ -1,0 +1,8 @@
+{"level":"DEBUG","time":"2023-06-19T00:37:45.772+0800","caller":"web_app/main.go:37","msg":"logger initialized successfully"}
+{"level":"ERROR","time":"2023-06-19T00:37:45.823+0800","caller":"mysql/mysql.go:29","msg":"connect DB failed","error":"Error 1049 (42000): Unknown database 'sql_demo'"}
+{"level":"DEBUG","time":"2023-06-19T00:38:15.677+0800","caller":"web_app/main.go:37","msg":"logger initialized successfully"}
+{"level":"ERROR","time":"2023-06-19T00:38:15.691+0800","caller":"mysql/mysql.go:29","msg":"connect DB failed","error":"Error 1193 (HY000): Unknown system variable 'pareTime'"}
+{"level":"DEBUG","time":"2023-06-19T00:41:33.680+0800","caller":"web_app/main.go:37","msg":"logger initialized successfully"}
+{"level":"INFO","time":"2023-06-19T00:41:56.716+0800","caller":"logger/logger.go:109","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","errors":"","cost":0.000015625}
+{"level":"INFO","time":"2023-06-19T09:35:01.144+0800","caller":"web_app/main.go:92","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-06-19T09:35:01.147+0800","caller":"web_app/main.go:108","msg":"Server exiting"}
